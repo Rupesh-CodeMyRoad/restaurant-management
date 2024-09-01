@@ -1,4 +1,4 @@
-package com.rupjava.resturantmanagement;
+package com.rupjava.restaurantmanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

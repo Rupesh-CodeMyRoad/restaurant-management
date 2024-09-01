@@ -1,6 +1,6 @@
-package com.rupjava.resturantmanagement.repository;
+package com.rupjava.restaurantmanagement.repository;
 
-import com.rupjava.resturantmanagement.model.RestaurantTable;
+import com.rupjava.restaurantmanagement.model.RestaurantTable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,9 +1,9 @@
-package com.rupjava.resturantmanagement.controller;
+package com.rupjava.restaurantmanagement.controller;
 
 
-import com.rupjava.resturantmanagement.exceptionHandler.ResourceNotFoundException;
-import com.rupjava.resturantmanagement.model.Reservation;
-import com.rupjava.resturantmanagement.service.ReservationService;
+import com.rupjava.restaurantmanagement.exceptionHandler.ResourceNotFoundException;
+import com.rupjava.restaurantmanagement.model.Reservation;
+import com.rupjava.restaurantmanagement.service.ReservationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

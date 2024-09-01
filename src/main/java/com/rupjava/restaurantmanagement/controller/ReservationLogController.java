@@ -1,9 +1,8 @@
-package com.rupjava.resturantmanagement.controller;
+package com.rupjava.restaurantmanagement.controller;
 
-import com.rupjava.resturantmanagement.model.Reservation;
-import com.rupjava.resturantmanagement.model.ReservationLog;
-import com.rupjava.resturantmanagement.model.RestaurantTable;
-import com.rupjava.resturantmanagement.service.ReservationLogService;
+import com.rupjava.restaurantmanagement.model.ReservationLog;
+import com.rupjava.restaurantmanagement.model.RestaurantTable;
+import com.rupjava.restaurantmanagement.service.ReservationLogService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

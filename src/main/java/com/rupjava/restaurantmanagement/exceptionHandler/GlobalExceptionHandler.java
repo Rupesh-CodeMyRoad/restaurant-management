@@ -1,4 +1,4 @@
-package com.rupjava.resturantmanagement.exceptionHandler;
+package com.rupjava.restaurantmanagement.exceptionHandler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

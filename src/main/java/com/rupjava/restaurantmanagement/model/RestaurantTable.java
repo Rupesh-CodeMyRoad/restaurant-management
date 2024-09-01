@@ -1,7 +1,6 @@
-package com.rupjava.resturantmanagement.model;
+package com.rupjava.restaurantmanagement.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.Min;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
