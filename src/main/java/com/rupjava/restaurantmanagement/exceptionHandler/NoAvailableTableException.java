@@ -1,4 +1,4 @@
-package com.rupjava.resturantmanagement.exceptionHandler;
+package com.rupjava.restaurantmanagement.exceptionHandler;
 
 public class NoAvailableTableException extends RuntimeException{
 

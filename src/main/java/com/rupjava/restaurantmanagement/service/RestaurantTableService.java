@@ -1,13 +1,12 @@
-package com.rupjava.resturantmanagement.service;
+package com.rupjava.restaurantmanagement.service;
 
-import com.rupjava.resturantmanagement.exceptionHandler.InvalidTableCapacityException;
-import com.rupjava.resturantmanagement.exceptionHandler.ResourceNotFoundException;
-import com.rupjava.resturantmanagement.model.RestaurantTable;
-import com.rupjava.resturantmanagement.repository.RestaurantTableRepository;
+import com.rupjava.restaurantmanagement.exceptionHandler.InvalidTableCapacityException;
+import com.rupjava.restaurantmanagement.exceptionHandler.ResourceNotFoundException;
+import com.rupjava.restaurantmanagement.model.RestaurantTable;
+import com.rupjava.restaurantmanagement.repository.RestaurantTableRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 

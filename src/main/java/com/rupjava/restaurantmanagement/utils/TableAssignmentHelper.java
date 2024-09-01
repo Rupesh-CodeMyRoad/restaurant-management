@@ -1,11 +1,9 @@
-package com.rupjava.resturantmanagement.utils;
+package com.rupjava.restaurantmanagement.utils;
 
-import com.rupjava.resturantmanagement.exceptionHandler.NoAvailableTableException;
-import com.rupjava.resturantmanagement.model.Reservation;
-import com.rupjava.resturantmanagement.model.RestaurantTable;
-import com.rupjava.resturantmanagement.repository.ReservationLogRepository;
-import com.rupjava.resturantmanagement.repository.ReservationRepository;
-import com.rupjava.resturantmanagement.repository.RestaurantTableRepository;
+import com.rupjava.restaurantmanagement.model.Reservation;
+import com.rupjava.restaurantmanagement.model.RestaurantTable;
+import com.rupjava.restaurantmanagement.repository.ReservationRepository;
+import com.rupjava.restaurantmanagement.repository.RestaurantTableRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

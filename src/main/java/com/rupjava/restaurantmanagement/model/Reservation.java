@@ -1,4 +1,4 @@
-package com.rupjava.resturantmanagement.model;
+package com.rupjava.restaurantmanagement.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -9,18 +9,18 @@ import lombok.NoArgsConstructor;
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "reservation_log")
+@Table(name = "reservation")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class ReservationLog {
+public class Reservation {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
+    @Column(unique = true, nullable = false)
     private String customerName;
 
     @Column(nullable = false)
@@ -33,12 +33,7 @@ public class ReservationLog {
     private int numberOfPeople;
 
     @ManyToOne
-    @JoinColumn(name = "table_id", nullable = false)
+    @JoinColumn(name = "table_id")
     private RestaurantTable restaurantTable;
 
-    @Column(nullable = false)
-    private String status; // e.g., "COMPLETED", "CANCELED"
-
-    @Column(nullable = false)
-    private LocalDateTime statusChangedTime; // Time when the status was updated
 }
